@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lifetrakr</title>
+  <title>Agenda with Reminder</title>
   
   <!-- PLUGINS CSS STYLE -->
   <!-- Bootstrap -->
@@ -25,6 +24,15 @@
   <!-- FAVICON -->
   <link href="images/favicon.png" rel="shortcut icon">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    .custom-button {
+        border-radius: 20px;
+        padding: 20px 30px;
+        font-size: 16px;
+    }
+</style>
 </head>
 
 <body class="body-wrapper">
@@ -32,7 +40,7 @@
 
 <nav class="navbar main-nav fixed-top navbar-expand-lg">
   <div class="container">
-      <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"></a>
+      <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="tf-ion-android-menu"></span>
       </button>
@@ -70,17 +78,20 @@
 			<div class="col-md-8 align-self-center">
 				<!-- Contents -->
 				<div class="content-block">
-					<h1>Amazing App Best for business</h1>
-					<h5>Let you track everything in your life with a simple way</h5>
+					<h1>Amazing App Best for Notes</h1>
+					<h5>Let you record everything in your life with a simple way</h5>
 					<!-- App Badge -->
 					<div class="app-badge">
 						<ul class="list-inline">
 							<li class="list-inline-item">
-								<a href="#"><img class="img-fluid" src="images/app-badge/google-play.png" alt="google-play"></a>
+								<a href="files/sample-file.zip" download>
+									<button class="btn btn-dark d-flex align-items-center custom-button">
+										<i class="fas fa-download" style="margin-right: 10px;"></i>
+										Download Now
+									</button>
+								</a>
 							</li>
-							<li class="list-inline-item">
-								<a href="#"><img class="img-fluid" src="images/app-badge/app-store.png" alt="app-store"></a>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -88,7 +99,7 @@
 			<div class="col-md-4">
 				<!-- App Image -->
 				<div class="image-block">
-					<img class="img-fluid" src="images/phones/iphone-banner.png" alt="iphone-banner">
+					<img class="img-fluid" src="images/phones/1.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -107,7 +118,7 @@
 			<div class="col-lg-5 mr-auto">
 				<!-- Image Content -->
 				<div class="image-block">
-					<img src="images/phones/iphone-feature.png" alt="iphone-feature" class="img-fluid">
+					<img src="images/phones/2.png" alt="iphone-feature" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-10 m-md-auto align-self-center ml-auto">
@@ -252,125 +263,7 @@
 
 <!--====  End of Features  ====-->
 
-<!--=================================
-=            Promo Video            =
-==================================-->
 
-<section class="section promo-video bg-3 overlay">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<!-- Promo Video -->
-				<div class="video">
-					<img class="img-fluid" src="images/backgrounds/promo-video-bg.jpg" alt="video-thumbnail">
-					<div class="video-button video-box">
-						<!-- Video Play Button -->
-						<a href="javascript:void(0)">
-							<span class="icon" data-video="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1">
-								<i class="tf-ion-ios-play-outline"></i>
-							</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--====  End of Promo Video  ====-->
-
-<!--===================================
-=            Pricing Table            =
-====================================-->
-
-<section class="pricing section bg-shape" id="pricing">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h2>Choose Your Subscription Plan</h2>
-					<p>Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of denouncing pleasure and praising</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<!-- Pricing Table -->
-<div class="pricing-table text-center">	
-	<!-- Title -->
-	<div class="title">	
-		<h5>Free</h5>
-	</div>
-	<!-- Price Tag -->
-	<div class="price">	
-		<p>$0<span>/month</span></p>
-	</div>
-	<!-- Features -->
-	<ul class="feature-list">
-		<li>Android App</li>
-		<li>One time payment</li>
-		<li>Build & Publish</li>
-		<li>Life time support</li>
-	</ul>
-	<!-- Take Action -->
-	<div class="action-button">
-		<a href="" class="btn btn-main-rounded">Start Now</a>
-	</div>
-</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<!-- Pricing Table -->
-<div class="pricing-table featured text-center">	
-	<!-- Title -->
-	<div class="title">	
-		<h5>Basic</h5>
-	</div>
-	<!-- Price Tag -->
-	<div class="price">	
-		<p>$19<span>/month</span></p>
-	</div>
-	<!-- Features -->
-	<ul class="feature-list">
-		<li>Android App</li>
-		<li>One time payment</li>
-		<li>Build & Publish</li>
-		<li>Life time support</li>
-	</ul>
-	<!-- Take Action -->
-	<div class="action-button">
-		<a href="" class="btn btn-main-rounded">Start Now</a>
-	</div>
-</div>
-			</div>
-			<div class="col-lg-4 col-md-6 m-md-auto">
-				<!-- Pricing Table -->
-<div class="pricing-table text-center">	
-	<!-- Title -->
-	<div class="title">	
-		<h5>Advance</h5>
-	</div>
-	<!-- Price Tag -->
-	<div class="price">	
-		<p>$99<span>/month</span></p>
-	</div>
-	<!-- Features -->
-	<ul class="feature-list">
-		<li>Android App</li>
-		<li>One time payment</li>
-		<li>Build & Publish</li>
-		<li>Life time support</li>
-	</ul>
-	<!-- Take Action -->
-	<div class="action-button">
-		<a href="" class="btn btn-main-rounded">Start Now</a>
-	</div>
-</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--====  End of Pricing Table  ====-->
 
 <!--=============================================
 =            Call to Action Download            =
@@ -452,242 +345,7 @@
 
 <!--====  End of Counter  ====-->
 
-<!--==========================
-=            Team            =
-===========================-->
 
-<section class="section team bg-shape-two" id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h2>Our Creative Team</h2>
-					<p>Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of denouncing pleasure and praising</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<!-- Team Member -->
-<div class="team-member text-center">
-	<div class="image">
-		<img class="img-fluid" src="images/team/member-one.jpg" alt="team-member">
-	</div>
-	<div class="name">
-		<h5>Johnny Depp</h5>
-	</div>
-	<div class="position">
-		<p>Production Designer</p>
-	</div>
-	<div class="skill-bar">
-		<div class="progress" data-percent="85%">
-		  	<div class="progress-bar"></div>
-		</div>
-		<span>85%</span>
-	</div>
-	<ul class="social-icons list-inline">
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-facebook"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-twitter"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-linkedin"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-instagram-outline"></i></a>
-		</li>
-	</ul>
-</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<!-- Team Member -->
-<div class="team-member text-center">
-	<div class="image">
-		<img class="img-fluid" src="images/team/member-two.jpg" alt="team-member">
-	</div>
-	<div class="name">
-		<h5>cristin milioti</h5>
-	</div>
-	<div class="position">
-		<p>UX Researcher</p>
-	</div>
-	<div class="skill-bar">
-		<div class="progress" data-percent="95%">
-		  	<div class="progress-bar"></div>
-		</div>
-		<span>95%</span>
-	</div>
-	<ul class="social-icons list-inline">
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-facebook"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-twitter"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-linkedin"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-instagram-outline"></i></a>
-		</li>
-	</ul>
-</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<!-- Team Member -->
-<div class="team-member text-center">
-	<div class="image">
-		<img class="img-fluid" src="images/team/member-three.jpg" alt="team-member">
-	</div>
-	<div class="name">
-		<h5>john doe</h5>
-	</div>
-	<div class="position">
-		<p>Head of Ideas</p>
-	</div>
-	<div class="skill-bar">
-		<div class="progress" data-percent="80%">
-		  	<div class="progress-bar"></div>
-		</div>
-		<span>80%</span>
-	</div>
-	<ul class="social-icons list-inline">
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-facebook"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-twitter"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-linkedin"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-instagram-outline"></i></a>
-		</li>
-	</ul>
-</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<!-- Team Member -->
-<div class="team-member text-center">
-	<div class="image">
-		<img class="img-fluid" src="images/team/member-four.jpg" alt="team-member">
-	</div>
-	<div class="name">
-		<h5>mario gotze</h5>
-	</div>
-	<div class="position">
-		<p>UX/UI designer</p>
-	</div>
-	<div class="skill-bar">
-		<div class="progress" data-percent="75%">
-		  	<div class="progress-bar"></div>
-		</div>
-		<span>75%</span>
-	</div>
-	<ul class="social-icons list-inline">
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-facebook"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-twitter"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-linkedin"></i></a>
-		</li>
-		<li class="list-inline-item">
-			<a href=""><i class="tf-ion-social-instagram-outline"></i></a>
-		</li>
-	</ul>
-</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--====  End of Team  ====-->
-
-<!--=================================
-=            Testimonial            =
-==================================-->
-
-<section class="section testimonial bg-primary-shape" id="testimonial">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h2 class="text-white">Our Happy Customers</h2>
-					<p class="text-white">Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of denouncing pleasure and praising</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 m-auto">
-				<!-- Testimonial Carosel -->
-<div class="testimonial-slider">
-	<!-- testimonial item -->
-	<div class="testimonial-item">
-		<div class="content">
-			<div class="name">
-				<h5>Kris lazy Cistin Miloti</h5>
-			</div>
-			<div class="pos-in-com">
-				<p>CEO at <span>Themefisher</span></p>
-			</div>
-			<div class="speech">
-				<p>Explain to you how all this mistaken idea of denouncing tis pleasure and praising pain was born and I will give you a complete praising the account is account the. </p>
-			</div>
-			<ul class="rating list-inline">
-				<li class="list-inline-item">
-					<i class="tf-ion-android-star"></i>
-					<i class="tf-ion-android-star"></i>
-					<i class="tf-ion-android-star"></i>
-					<i class="tf-ion-android-star"></i>
-					<i class="tf-ion-android-star"></i>
-				</li>
-			</ul>		</div>
-		<div class="image">
-			<img class="img-fluid" src="images/testimonial/review-person-one.png" alt="testimonial-person">
-		</div>
-	</div>
-	<!-- testimonial item -->
-	<div class="testimonial-item">
-		<div class="content">
-			<div class="name">
-				<h5>Kris lazy Cistin Miloti</h5>
-			</div>
-			<div class="pos-in-com">
-				<p>CEO at<span>Themefisher</span></p>
-			</div>
-			<div class="speech">
-				<p>Explain to you how all this mistaken idea of denouncing tis pleasure and praising pain was born and I will give you a complete praising the account is account the. </p>
-			</div>
-			<div class="rating">
-				<ul class="rating list-inline">
-					<li class="list-inline-item">
-						<i class="tf-ion-android-star"></i>
-						<i class="tf-ion-android-star"></i>
-						<i class="tf-ion-android-star"></i>
-						<i class="tf-ion-android-star"></i>
-						<i class="tf-ion-android-star"></i>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="image">
-			<img class="img-fluid" src="images/testimonial/review-person-one.png" alt="testimonial-person">
-		</div>
-	</div>
-</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-<!--====  End of Testimonial  ====-->
 
 <section class="section cta-subscribe" id="contact">
 	<div class="container">
